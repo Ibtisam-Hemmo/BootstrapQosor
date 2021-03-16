@@ -1,0 +1,144 @@
+:root {
+    --bg-color: #fcfcfc;
+    --primary-color: #ffad12;
+    --light-primary-color: #FABF43;
+    --secoundry-color: #989898;
+}
+
+body {
+    background-color: #FCFCFC;
+    font-family: 'gess-light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'gess-bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a,
+.btn {
+    font-family: 'gess-medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--secoundry-color);
+}
+
+.mw-340 {
+    max-width: 340px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.btn-primary {
+    padding: 5px 15px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 6px 10px 0 var(--light-primary-color);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 3px 5px 0 var(--light-primary-color);
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem var(--light-primary-color);
+}
+
+.h-80vh {
+    min-height: 80vh;
+}
+
+.row .col-12 h2 {
+    color: rgb(95, 94, 94);
+    margin: 10px;
+}
+
+.btn-p {
+    padding: 5px 26px 5px 26px;
+}
+
+.p-bottom {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 35px 5px 35px;
+}
+
+.ps-4 {
+    padding-right: 1.5rem;
+}
+
+.foot {
+    width: 900px;
+    height: 340px;
+    text-align: center;
+    background-color: rgb(241, 245, 248, .5);
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 4;
+}
+
+.foot h2 {
+    text-align: center;
+    font-weight: lighter;
+    word-spacing: 3px;
+    color: rgb(27, 26, 26);
+    padding-bottom: 50px;
+}
+
+.row p {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: smaller;
+    padding-bottom: 20px;
+    color: rgb(131, 125, 125);
+}
+
+::placeholder {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+span,
+#button-addon1 {
+    z-index: 3;
+}
+
+.sec-img {
+    top: -180px;
+    z-index: initial;
+}
